@@ -1,4 +1,4 @@
-# Simple JS Calculator with Python Backend
+# Simple JS Calculator with JS/PY Backend
 
 This project shows how to invoke a Python function from JavaScript when a button is clicked.
 
