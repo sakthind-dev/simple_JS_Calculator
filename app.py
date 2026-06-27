@@ -5,11 +5,10 @@ from flask_cors import CORS
 app = Flask(__name__, static_folder='.', static_url_path='')
 CORS(app)
 
-
 def my_python_function(text: str) -> str:
     """Example Python function that processes input from the frontend."""
     # Replace this logic with whatever you need the backend to do
-    return f"Python received: {text}"
+    return f"Python received:: {text}"
 
 
 @app.route('/run', methods=['POST'])
